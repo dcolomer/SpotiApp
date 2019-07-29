@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import {SpotifyService} from './spotify.service';
 import {HttpClient} from '@angular/common/http';
 
 @Injectable({
