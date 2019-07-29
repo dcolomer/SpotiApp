@@ -1,8 +1,28 @@
 # SpotiApp
+> ### Aplicación en Angular v8.
 
-Esta es una aplicación en Angular v8.
+### Acceso a la aplicación
+Se accede a la aplicación mediante la URL http://localhost:4200/ 
 
-Toca en mayor o menor medida los siguientes aspectos:
+## Capturas de pantalla
+A continuación se muestra visualmente las principales funcionalidades de la aplicación.
+
+### Inicio
+La pantalla de inicio muestra las últimas novedades de Spotify. La imagen siguiente es de Julio de 2019
+ 
+![Inicio](https://github.com/dcolomer/SpotiApp/blob/master/screenshots/1.png)
+
+### Ficha del artista
+Al pulsar sobre una novedad accedemos a la ficha del artista, en la cual vemos las canciones más populares del mismo y de las que podemos escuchar un `preview`.
+ 
+![Ficha](https://github.com/dcolomer/SpotiApp/blob/master/screenshots/2.png)
+
+### Búsqueda
+Podemos buscar la música de un artista o de varios. Introduciendo su nombre aparecerán todos los álbumes cuyo artista coincida con el texto introducido.
+ 
+![Búsqueda](https://github.com/dcolomer/SpotiApp/blob/master/screenshots/3.png)
+
+Características de Angular:
 - Gestión de rutas y parámetros
 - Uso de HttpClient para obtener información del backed
 - Uso de la API de Spotify para obtener información de:
