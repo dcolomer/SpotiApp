@@ -1,27 +1,23 @@
 # SpotiApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
+Esta es una aplicación en Angular v8.
 
-## Development server
+Toca en mayor o menor medida los siguientes aspectos:
+- Gestión de rutas y parámetros
+- Uso de HttpClient para obtener información del backed
+- Uso de la API de Spotify para obtener información de:
+    - Artistas
+    - Albumes
+    - Audio
+- Gestión de datos asíncronos. Observables y promesas
+- Widgets de Spotify
+- HTML5 audio
+- Pipes personalizados
+- Gestión de token de acceso
+- LocalStorage
+- Bootstrap 4: cards, badges, tables, navbar
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Instalación
+Ejecutar `mpm install` para descargar las librerías de node.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Importante: El programa no proporciona las credenciales que permiten conseguir un token de acceso al API de Spotify. Por tanto, será necesario registrarse en Spotify, obtener el `client id` y el `client secret` y pegarlos en el método `getToken` de `TokenService`.
